@@ -1,24 +1,118 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'> -->
+    <link href="Development.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   </head>
   <body>
-    <div class = "introBlock2">
-        <div class="topBar">
-            <a href="/index.html"><h1 class="nameLink">Brennan Nugent</h1></a>
-            <a href="/aboutMe.html"><h2 class="aboutMe">About Me</h2></a>
+        <div class = "introBlock2">
+            <div class="topBar">
+                <a href="https://eagereagle997.github.io/Portfolio/"><h1 class="nameLink">Eager Eagle</h1></a>
+                <a href="https://eagereagle997.github.io/Portfolio/aboutMe.html"><h2 class="aboutMe">About Me</h2></a>
         </div>
+
+
+    <div class = "submissionElements">
+        
+        <div class = "TitleTextBar shadow p-3">
+            <div class="textHolder">
+                <br>
+                <h1>Development: A Dive into React</h1>
+                <br>
+                <a href = "https://eagereagle997.github.io/Development/">Link to the deployed React Website</a>
+            </div>
+        </div>
+
+
+    
+    
+        <div class = "BubbleElement shadow p-3 part1">
+            <div class = "textHolder">
+                <br>
+                <h2>Some Background on this Project</h2>
+                <br>
+                <p>
+                  Web development has progressed greatly since the early days of basic HTML pages in the 90's and early 2000's. One of the more recent paradigms that has emerged in web development is the use of components to create interactive webpages with reusable and dynamic parts. In this particular project we will be implementing a component based webpage with React!
+                </p>
+                <p>
+                  I built out an interactive website that gives you information about the various Star Wars films that have been released throughout the years. It also allows you to add the films you have seen to a list and it aggregates the total amount of time you have spent watching Star Wars films. 
+                </p>
+                <br>
+            </div>
+        </div>
+            
+        <div class = "BubbleElement shadow p-3 part2">
+            <div class = "textHolder">
+                <br>
+                <h2>Architecture of the Webpage</h2>
+                <br>
+                <h3>Components</h3>
+                <br>
+                <p>
+                  In this webapp, the only main component used was a "MovieItem" component. The purpose of this component was to provide and easy and repeatable way to generate each of the movie elements based off the movie list JSON for the primary part of the interface.
+                </p>
+                <p>
+                  I also used the React Bootstrap component "Dropdown" to represent the filter and sort by values.
+                </p>
+                <br>
+                <h3>Props</h3>
+                <br>
+                <p>
+                  Data from App.js is passed to the MovieItem component via props.
+                </p>
+                <br>
+                <h3>State</h3>
+                <br>
+                <p>
+                  The user triggers state changes via interaction with the various buttons across the interface. Each button is tied to a different state change, for example there are 3 state variables representing each of the filter states, one for the sort by state and various buttons controlling the add to and remove from movie list functions. Each of these buttons is tied to its respective function, and triggers the state change when pressed.
+                </p>
+                <br>
+                <h3>Filtering</h3>
+                <br>
+                <p>
+                  The user has multiple options to filter from. This was implemented using custom filtering functions implemented in the code. 
+                </p>
+                <br>
+                <h3>Sorting</h3>
+                <br>
+                <p>
+                  The user has multiple options to use to sort the components. This was implemented using custom filtering functions implemented in the code. 
+                </p>
+                <br>
+
+            </div>
+        </div>
+
+        <div class = "BubbleElement shadow p-3 part1">
+          <div class = "textHolder">
+              <br>
+              <h2>Closing Remarks</h2>
+              <br>
+              <p>
+                While this is a simple demonstration of the capabilities of React, the implications of being able to use components and states within building a WebApp are profound. 
+              </p>
+    
+              <br>
+          </div>
+      </div>
+ 
     </div>
 
 
 
-
     <div class = "bottomBlock">
-        Let's Stay in touch!
+        <h1 class="bottomTitle">Let's stay in touch!</h1>
+
+        <div class="linkContainer">
+            <a href="" class="bottomLink">Linkedin</a>
+            <a href="" class="bottomLink">Github</a>
+            <a href="" class="bottomLink">Resume</a>
+        </div>  
+
     </div>
 
   </body>

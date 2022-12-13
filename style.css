@@ -52,7 +52,7 @@ a {
 
 .nameLink {
     color:white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Sofia', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 25px
 }
 
@@ -89,8 +89,7 @@ a {
 }
 
 .hookBlurb {
-    margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 100px;
     color: white;
     font-size: 20px;
     width: 50%;
@@ -103,7 +102,7 @@ a {
 }
 
 .projectItem {
-    height: 400px;
+    height: 300px;
     width: 500px;
     padding: 25px;
     margin: 10px;
@@ -119,7 +118,7 @@ a {
 }
 
 .projectPic{
-    width:400px;
+    width: 500px;
     border-radius: 10px;
 }
 
@@ -129,7 +128,9 @@ a {
 
 .hide{
     display: none;
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
 }
 
 .projectItem:hover {
@@ -173,10 +174,18 @@ a {
 }
 
 .aboutMeImage {
-    height: 750px;
-    width: 550px;
+    height: 600px;
+    width: 450px;
     margin: 50px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.eagleSuit {
+    width: 300px;
+
 }
 
 .aboutMeBlock {
@@ -186,13 +195,27 @@ a {
     font-size: 18px;
 }
 
+.portItemTitles {
+    text-align: center;
+}
+
+.portItemUL {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.portItemWriteUp {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
 p {
     line-height: 150%;
 }
 
 body {
     background-color: rgb(225, 242, 250);
-    margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
